@@ -10,5 +10,15 @@
   },
   "observability": {
     "enabled": true
-  }
+  },
+  "routes": [
+    {
+      "pattern": "luic.dev",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.luic.dev",
+      "custom_domain": true
+    }
+  ]
 }
